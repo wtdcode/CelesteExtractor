@@ -4,6 +4,8 @@
 
 It is a tool to extract all atlas in Celeste.
 
+Extracting some files is making no sense (like color grading files), so they are excluded.
+
 ## Download
 
 Binary release can be found in [here](https://github.com/wtdcode/CelesteExtractor/releases).
