@@ -36,7 +36,8 @@ namespace CelesteExtractor
             { "Journal", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Journal"), Atlas.AtlasDataFormat.Packer)},
             { "Misc", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Misc"), Atlas.AtlasDataFormat.PackerNoAtlas)},
             { "GamePlay", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Gameplay"), Atlas.AtlasDataFormat.Packer)},
-            { "OverWorld", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Overworld"), Atlas.AtlasDataFormat.PackerNoAtlas)}
+            { "OverWorld", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Overworld"), Atlas.AtlasDataFormat.PackerNoAtlas)},
+            { "Portraits", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Portraits"), Atlas.AtlasDataFormat.PackerNoAtlas)}
         };
 
         private static void _extract(string type)
