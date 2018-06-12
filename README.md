@@ -26,7 +26,7 @@ Looking for audio resources? See [this](https://www.fmod.com/download#demos).
 
 ## Issue
 
-If you encounter any problem, please post a issue with any relevant information. I will check it as soon as possible.
+If you encounter any problem, please post an issue with any relevant information. I will check it as soon as possible.
 
 ## License
 
