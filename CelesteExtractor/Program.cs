@@ -29,15 +29,19 @@ namespace CelesteExtractor
         }
 
         private static readonly Dictionary<string, AtlasInfo> _components = new Dictionary<string, AtlasInfo> {
-            { "Mountains", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Mountain"), Atlas.AtlasDataFormat.PackerNoAtlas) },
-            { "CheckPoints", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Checkpoints"), Atlas.AtlasDataFormat.Packer)},
+            // OVR
+            { "Overworld", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Overworld"), Atlas.AtlasDataFormat.PackerNoAtlas)},
+            // GFX
+            { "GamePlay", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Gameplay"), Atlas.AtlasDataFormat.Packer)},
             { "Openning", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Opening"), Atlas.AtlasDataFormat.PackerNoAtlas)},
             { "Gui", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Gui"), Atlas.AtlasDataFormat.Packer)},
-            { "Journal", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Journal"), Atlas.AtlasDataFormat.Packer)},
             { "Misc", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Misc"), Atlas.AtlasDataFormat.PackerNoAtlas)},
-            { "GamePlay", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Gameplay"), Atlas.AtlasDataFormat.Packer)},
-            { "OverWorld", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Overworld"), Atlas.AtlasDataFormat.PackerNoAtlas)},
-            { "Portraits", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Portraits"), Atlas.AtlasDataFormat.PackerNoAtlas)}
+            { "Portraits", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Portraits"), Atlas.AtlasDataFormat.PackerNoAtlas)},
+            // MTN
+            { "FileSelect", new AtlasInfo(Path.Combine("Graphics", "Atlases", "FileSelect"), Atlas.AtlasDataFormat.Packer)},
+            { "Journal", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Journal"), Atlas.AtlasDataFormat.Packer)},
+            { "Mountains", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Mountain"), Atlas.AtlasDataFormat.PackerNoAtlas) },
+            { "CheckPoints", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Checkpoints"), Atlas.AtlasDataFormat.Packer)}
         };
 
         private static void _extract(string type)
