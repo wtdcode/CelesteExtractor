@@ -41,7 +41,7 @@ namespace CelesteExtractor
             { "FileSelect", new AtlasInfo(Path.Combine("Graphics", "Atlases", "FileSelect"), Atlas.AtlasDataFormat.Packer)},
             { "Journal", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Journal"), Atlas.AtlasDataFormat.Packer)},
             { "Mountains", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Mountain"), Atlas.AtlasDataFormat.PackerNoAtlas) },
-            { "CheckPoints", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Checkpoints"), Atlas.AtlasDataFormat.Packer)}
+            { "CheckPoints", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Checkpoints"), Atlas.AtlasDataFormat.PackerNoAtlas)}
         };
 
         private static void _extract(string type)
