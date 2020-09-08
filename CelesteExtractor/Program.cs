@@ -41,7 +41,21 @@ namespace CelesteExtractor
             { "FileSelect", new AtlasInfo(Path.Combine("Graphics", "Atlases", "FileSelect"), Atlas.AtlasDataFormat.Packer)},
             { "Journal", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Journal"), Atlas.AtlasDataFormat.Packer)},
             { "Mountains", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Mountain"), Atlas.AtlasDataFormat.PackerNoAtlas) },
-            { "CheckPoints", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Checkpoints"), Atlas.AtlasDataFormat.PackerNoAtlas)}
+            { "CheckPoints", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Checkpoints"), Atlas.AtlasDataFormat.PackerNoAtlas)},
+            // CS10_Ending
+            { "Farewell", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Farewell"), Atlas.AtlasDataFormat.PackerNoAtlas) },
+            // WaveDash
+            { "WaveDash", new AtlasInfo(Path.Combine("Graphics", "Atlases", "WaveDashing"), Atlas.AtlasDataFormat.Packer) },
+            // From my guessing
+            { "CelestialResort", new AtlasInfo(Path.Combine("Graphics", "Atlases", "CelestialResort"), Atlas.AtlasDataFormat.PackerNoAtlas)},
+            { "Core", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Core"), Atlas.AtlasDataFormat.PackerNoAtlas)},
+            { "Cliffside", new AtlasInfo(Path.Combine("Graphics", "Atlases", "Cliffside"), Atlas.AtlasDataFormat.PackerNoAtlas)},
+            { "ForsakenCity", new AtlasInfo(Path.Combine("Graphics", "Atlases", "ForsakenCity"), Atlas.AtlasDataFormat.PackerNoAtlas)},
+            { "MirrorTemple", new AtlasInfo(Path.Combine("Graphics", "Atlases", "MirrorTemple"), Atlas.AtlasDataFormat.PackerNoAtlas)},
+            { "OldSite", new AtlasInfo(Path.Combine("Graphics", "Atlases", "OldSite"), Atlas.AtlasDataFormat.PackerNoAtlas)},
+            { "SummitEnd", new AtlasInfo(Path.Combine("Graphics", "Atlases", "SummitEnd"), Atlas.AtlasDataFormat.PackerNoAtlas)},
+            { "SummitIntro", new AtlasInfo(Path.Combine("Graphics", "Atlases", "SummitIntro"), Atlas.AtlasDataFormat.PackerNoAtlas)},
+            { "TheFall", new AtlasInfo(Path.Combine("Graphics", "Atlases", "TheFall"), Atlas.AtlasDataFormat.PackerNoAtlas)},
         };
 
         private static void _extract(string type)
