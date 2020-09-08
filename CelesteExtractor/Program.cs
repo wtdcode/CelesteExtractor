@@ -69,6 +69,7 @@ namespace CelesteExtractor
                 Console.WriteLine("Celeste Extractor : Extracting all atlas in Celeste.");
                 Console.WriteLine("Usage: CelesteExtractor [ContentDirectory] [OutputDirectory]");
                 WaitExit();
+                return;
             }
             else
             {
@@ -76,6 +77,7 @@ namespace CelesteExtractor
                 {
                     Console.WriteLine("Content directory doesn't exist!");
                     WaitExit();
+                    return;
                 }
                 else
                 {
@@ -98,7 +100,7 @@ namespace CelesteExtractor
             }
             Console.WriteLine("Done!");
             WaitExit();
-
+            return;
         }
     }
 }
